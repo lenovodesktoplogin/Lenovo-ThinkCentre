@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Meta Tags for SEO & Social -->
+  <meta name="description" content="Learn how to login to Lenovo ThinkCentre account, access your desktop sign-in, and manage credentials securely for smooth system access with recovery options.">
+  <meta name="keywords" content="lenovo thinkcentre login, lenovo thinkcentre account login, lenovo login, lenovo sign in, lenovo desktop login, thinkcentre login, lenovo account login, login to lenovo thinkcentre, lenovo user login, lenovo desktop sign in">
+  <meta name="author" content="Lenovo Support Team">
+  <meta property="og:title" content="How to Login to Lenovo ThinkCentre?">
+  <meta property="og:description" content="Learn how to login to Lenovo ThinkCentre account, access your desktop sign-in, and manage credentials securely for smooth system access with recovery options.">
+  <meta property="og:type" content="website">
+  <meta name="robots" content="index, follow">
+  <title>How to Login to Lenovo ThinkCentre?</title>
+  <!-- Google Font & Font Awesome -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+    /* ===== FULL WEBSITE STYLES ===== */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: #f0f4f9;
+      color: #1a2a3a;
+      line-height: 1.7;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* ===== TOP NAVIGATION ===== */
+    .site-nav {
+      background: #0a1e2f;
+      padding: 0 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      height: 72px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .site-nav .nav-left {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .site-nav .nav-logo {
+      color: white;
+      font-size: 1.5rem;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+    }
+    .site-nav .nav-logo span {
+      color: #f44336;
+    }
+    .site-nav .nav-logo i {
+      margin-right: 8px;
+      color: #f44336;
+    }
+    .site-nav .nav-links {
+      display: flex;
+      gap: 28px;
+      list-style: none;
+      align-items: center;
+    }
+    .site-nav .nav-links a {
+      color: rgba(255,255,255,0.75);
+      text-decoration: none;
+      font-size: 0.9rem;
+      font-weight: 500;
+      transition: 0.2s;
+      letter-spacing: 0.3px;
+    }
+    .site-nav .nav-links a:hover {
+      color: white;
+    }
+    .site-nav .nav-links .active {
+      color: white;
+      font-weight: 600;
+    }
+    .nav-cta {
+      background: #f44336;
+      color: white !important;
+      padding: 6px 20px;
+      border-radius: 40px;
+      font-weight: 600 !important;
+      transition: 0.2s;
+    }
+    .nav-cta:hover {
+      background: #d32f2f !important;
+      transform: scale(1.02);
+    }
+    .hamburger {
+      display: none;
+      color: white;
+      font-size: 1.6rem;
+      cursor: pointer;
+    }
+    @media (max-width: 768px) {
+      .site-nav { padding: 0 1.2rem; height: 64px; }
+      .site-nav .nav-links { display: none; }
+      .hamburger { display: block; }
+    }
+
+    /* ===== HERO BANNER ===== */
+    .hero-banner {
+      background: linear-gradient(135deg, #0a1e2f 0%, #1a3a5e 100%);
+      padding: 2.8rem 2rem 2.2rem;
+      text-align: center;
+      color: white;
+    }
+    .hero-banner h1 {
+      font-size: 2.8rem;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      margin-bottom: 0.5rem;
+    }
+    .hero-banner h1 i {
+      color: #f44336;
+      margin-right: 10px;
+    }
+    .hero-banner p {
+      font-size: 1.2rem;
+      opacity: 0.85;
+      max-width: 700px;
+      margin: 0 auto;
+      font-weight: 400;
+    }
+    .hero-banner .breadcrumb {
+      margin-top: 1rem;
+      font-size: 0.85rem;
+      opacity: 0.6;
+    }
+    .hero-banner .breadcrumb i {
+      margin: 0 6px;
+    }
+
+    /* ===== MAIN CONTAINER ===== */
+    .main-wrapper {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 2.5rem 2rem;
+      flex: 1;
+      width: 100%;
+    }
+
+    /* ===== CARD / CONTENT ===== */
+    .content-card {
+      background: white;
+      border-radius: 28px;
+      box-shadow: 0 20px 60px -16px rgba(0,0,0,0.12);
+      padding: 2.8rem 3.2rem;
+      transition: 0.2s;
+    }
+    @media (max-width: 640px) {
+      .content-card { padding: 1.8rem 1.2rem; }
+    }
+
+    .subhead {
+      font-size: 1.1rem;
+      color: #3d5775;
+      border-left: 5px solid #f44336;
+      padding-left: 1.2rem;
+      margin: 0.5rem 0 2rem;
+      background: #f9fbfd;
+      padding: 0.9rem 1.2rem;
+      border-radius: 12px;
+    }
+
+    h2 {
+      font-size: 1.7rem;
+      font-weight: 700;
+      margin-top: 2.5rem;
+      margin-bottom: 1rem;
+      color: #0a1e2f;
+      border-bottom: 2px solid #eef3f9;
+      padding-bottom: 0.6rem;
+    }
+    h3 {
+      font-weight: 600;
+      font-size: 1.25rem;
+      margin-top: 1.8rem;
+      margin-bottom: 0.5rem;
+      color: #1a3a5e;
+    }
+    p {
+      margin-bottom: 1.2rem;
+      color: #1f3a57;
+    }
+    .highlight-box {
+      background: #f2f7ff;
+      border-radius: 20px;
+      padding: 1.5rem 2rem;
+      margin: 2rem 0;
+      border: 1px solid #d9e6f2;
+    }
+    .highlight-box i {
+      color: #f44336;
+      margin-right: 10px;
+      font-size: 1.2rem;
+    }
+    ul, ol {
+      padding-left: 1.8rem;
+      margin-bottom: 1.5rem;
+    }
+    li {
+      margin-bottom: 0.6rem;
+    }
+    .badge-step {
+      display: inline-block;
+      background: #0a1e2f;
+      color: white;
+      font-weight: 700;
+      font-size: 0.8rem;
+      padding: 0 14px;
+      border-radius: 30px;
+      line-height: 26px;
+      margin-right: 8px;
+      letter-spacing: 0.5px;
+    }
+    .step-item {
+      display: flex;
+      align-items: baseline;
+      gap: 6px;
+      margin-bottom: 0.8rem;
+    }
+    .divider {
+      height: 1px;
+      background: linear-gradient(to right, #dce5ef, transparent);
+      margin: 2rem 0;
+    }
+
+    /* ===== LOGIN BUTTON (hero style) ===== */
+    .cta-wrapper {
+      text-align: center;
+      margin: 2.5rem 0 1.8rem;
+    }
+    .login-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 14px;
+      background: #f44336;
+      color: white;
+      font-weight: 700;
+      font-size: 1.4rem;
+      padding: 1rem 3.5rem;
+      border-radius: 60px;
+      border: none;
+      box-shadow: 0 8px 28px -6px rgba(244, 67, 54, 0.45);
+      transition: 0.25s ease;
+      text-decoration: none;
+      letter-spacing: 0.5px;
+      cursor: pointer;
+    }
+    .login-btn i {
+      font-size: 1.6rem;
+      transition: transform 0.2s;
+    }
+    .login-btn:hover {
+      background: #d32f2f;
+      transform: scale(1.03);
+      box-shadow: 0 14px 34px -8px rgba(244, 67, 54, 0.55);
+    }
+    .login-btn:hover i {
+      transform: translateX(6px);
+    }
+    .login-btn:active {
+      transform: scale(0.96);
+    }
+    .cta-note {
+      font-size: 0.9rem;
+      color: #4b6a8a;
+      margin-top: 0.8rem;
+    }
+
+    /* ===== INFO GRID ===== */
+    .tip-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.5rem;
+      margin: 1.8rem 0;
+    }
+    @media (max-width: 600px) {
+      .tip-grid { grid-template-columns: 1fr; }
+    }
+    .tip-card {
+      background: #f9fcff;
+      border-radius: 20px;
+      padding: 1.5rem 1.8rem;
+      border: 1px solid #e5eff7;
+      transition: 0.2s;
+    }
+    .tip-card:hover {
+      border-color: #f44336;
+      background: #fef8f7;
+    }
+    .tip-card i {
+      color: #f44336;
+      font-size: 1.6rem;
+      margin-bottom: 0.6rem;
+      display: inline-block;
+    }
+    .tip-card h4 {
+      font-size: 1.1rem;
+      font-weight: 600;
+      margin-bottom: 0.3rem;
+      color: #0a1e2f;
+    }
+    .tip-card p {
+      font-size: 0.95rem;
+      color: #2f4b6b;
+    }
+
+    /* ===== FOOTER ===== */
+    .site-footer {
+      background: #0a1e2f;
+      color: rgba(255,255,255,0.7);
+      padding: 2.5rem 2rem 1.8rem;
+      margin-top: 2rem;
+    }
+    .footer-inner {
+      max-width: 1100px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+    }
+    .footer-inner .col {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+    .footer-inner .col h5 {
+      color: white;
+      font-weight: 600;
+      margin-bottom: 6px;
+      font-size: 1rem;
+    }
+    .footer-inner .col a {
+      color: rgba(255,255,255,0.6);
+      text-decoration: none;
+      font-size: 0.9rem;
+      transition: 0.2s;
+    }
+    .footer-inner .col a:hover {
+      color: white;
+    }
+    .footer-bottom {
+      max-width: 1100px;
+      margin: 1.5rem auto 0;
+      padding-top: 1.2rem;
+      border-top: 1px solid rgba(255,255,255,0.08);
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      font-size: 0.8rem;
+      color: rgba(255,255,255,0.4);
+    }
+    .footer-bottom i {
+      margin-right: 4px;
+    }
+
+    /* ===== UTILITY ===== */
+    .inline-icon {
+      margin-right: 8px;
+      color: #f44336;
+    }
+    .text-muted {
+      color: #5b7999;
+    }
+    .mt-2 { margin-top: 1.5rem; }
+  </style>
+</head>
+<body>
+
+  <!-- ===== TOP NAVIGATION ===== -->
+  <nav class="site-nav">
+    <div class="nav-left">
+      <div class="nav-logo"><i class="fas fa-desktop"></i>Lenovo<span>ThinkCentre</span></div>
+    </div>
+  </nav>
+
+  <!-- ===== HERO BANNER ===== -->
+  <section class="hero-banner">
+    <h1><i class="fas fa-arrow-right-to-bracket"></i> How to Login to Lenovo ThinkCentre?</h1>
+    <p>Secure access to your Lenovo ThinkCentre account — manage devices, warranty, support and more.</p>
+    <div class="breadcrumb">
+      <i class="fas fa-home"></i> Home <i class="fas fa-chevron-right"></i> Support <i class="fas fa-chevron-right"></i> Login Guide
+    </div>
+  </section>
+
+  <!-- ===== MAIN CONTENT ===== -->
+  <div class="main-wrapper">
+    <div class="content-card">
+
+      <!-- subhead -->
+      <div class="subhead">
+        <i class="fas fa-shield-alt" style="margin-right: 12px; color:#f44336;"></i> 
+        Official step-by-step guide — Lenovo ThinkCentre login made simple.
+      </div>
+       <!-- ===== LOGIN BUTTON ===== -->
+      <div class="cta-wrapper">
+        <a href="#" class="login-btn" aria-label="Login to your Lenovo ThinkCentre account now">
+          <i class="fas fa-arrow-right-to-bracket"></i> Login Now
+        </a>
+        <p class="cta-note"><i class="fas fa-lock" style="margin-right: 5px;"></i> Secure connection · Official Lenovo portal</p>
+      </div>
+
+      <!-- intro -->
+      <p><strong>Your Lenovo ThinkCentre desktop account</strong> (Lenovo ID) is the gateway to personalized support, warranty status, driver updates, order history, and exclusive member benefits. Whether you’re using a ThinkCentre M series, Tiny, or All-in-One, logging in is quick and straightforward. This official guide walks you through every step, from the web portal to troubleshooting common sign‑in issues.</p>
+
+      <!-- highlight quick steps -->
+      <div class="highlight-box">
+        <i class="fas fa-list-check"></i> 
+        <strong>Quick steps:</strong> Visit the Lenovo login page → Enter your email/username → Enter password → Click "Sign In". That’s it. For enhanced security, we recommend two‑factor authentication (2FA).
+      </div>
+
+      <!-- ===== STEP 1 ===== -->
+      <h2>1. Access the Lenovo Account Portal</h2>
+      <p>Open your preferred browser and go to the official Lenovo login page. The most direct URL is https://account.lenovo.com or click the Login link at the top of any Lenovo website (Lenovo.com, support.lenovo.com, etc.). Always ensure you are on the genuine Lenovo domain — look for the lock icon in the address bar.</p>
+
+      <!-- ===== STEP 2 ===== -->
+      <h2>2. Enter Your Credentials</h2>
+      <div class="step-item"><span class="badge-step">1</span> <strong>Email or Username:</strong> Use the email address associated with your Lenovo ID. If you signed up with a social account (Google, Apple, Facebook), use that email.</div>
+      <div class="step-item"><span class="badge-step">2</span> <strong>Password:</strong> Enter your password carefully. Passwords are case‑sensitive. If you’ve forgotten it, use the <em>"Forgot password?"</em> link below the password field.</div>
+      <div class="step-item"><span class="badge-step">3</span> <strong>Stay signed in?</strong> (optional) Check this box if you’re on a personal device to avoid logging in each time. Not recommended for shared or public computers.</div>
+      <p>After filling in the fields, click the <strong>"Sign In"</strong> button. If your credentials are correct, you’ll be redirected to your account dashboard.</p>
+
+      <!-- ===== STEP 3 ===== -->
+      <h2>3. Two‑Factor Authentication (2FA) – Recommended</h2>
+      <p>Lenovo offers an extra layer of security via two‑factor authentication. If you’ve enabled 2FA, after entering your password you’ll receive a one‑time code via SMS or authenticator app. Enter that code to complete the login. We strongly recommend enabling 2FA from your account security settings.</p>
+
+      <!-- ===== STEP 4 ===== -->
+      <h2>4. First‑Time Login or New Account?</h2>
+      <p>If you’re new to Lenovo, click <strong>"Create an account"</strong> on the login page. You’ll need a valid email, a strong password, and basic personal details. After registration, you’ll receive a verification email — click the link to activate your account. Once verified, you can log in immediately.</p>
+
+      <div class="divider"></div>
+
+      <!-- ===== TROUBLESHOOTING ===== -->
+      <h2>5. Troubleshooting Login Issues</h2>
+      <p>Sometimes login attempts fail. Here are the most common issues and how to resolve them:</p>
+      <ul>
+        <li><strong>Forgot password:</strong> Use the "Forgot password?" link. You’ll receive a reset link to your registered email. Follow the instructions to create a new password.</li>
+        <li><strong>Account locked:</strong> After multiple failed attempts, your account may be temporarily locked for security. Wait 15‑30 minutes or use the "Unlock account" option.</li>
+        <li><strong>Browser cache/cookies:</strong> Clear your browser cache and cookies, or try an incognito/private window.</li>
+        <li><strong>Two‑factor code not received:</strong> Check your spam folder, ensure your phone number is correct, or use backup codes.</li>
+      </ul>
+
+      <!-- ===== TIP CARDS ===== -->
+      <div class="tip-grid">
+        <div class="tip-card">
+          <i class="fas fa-key"></i>
+          <h4>Password best practices</h4>
+          <p>Use a mix of uppercase, lowercase, numbers, and symbols. Avoid common words. Change your password every 60‑90 days for better security.</p>
+        </div>
+        <div class="tip-card">
+          <i class="fas fa-mobile-screen-button"></i>
+          <h4>Lenovo mobile app</h4>
+          <p>You can also log in via the Lenovo Vantage or Lenovo Support app on your smartphone — biometric login (fingerprint/face) is supported on many devices.</p>
+        </div>
+      </div>
+
+      <!-- ===== AFTER LOGIN ===== -->
+      <h2>6. After Login – What Can You Do?</h2>
+      <p>Once you’re logged in, your dashboard gives you access to:</p>
+      <ul>
+        <li><i class="fas fa-check-circle inline-icon"></i> <strong>Warranty &amp; support:</strong> Check warranty status, request service, and chat with support.</li>
+        <li><i class="fas fa-download inline-icon"></i> <strong>Drivers &amp; updates:</strong> Download the latest drivers, BIOS, and software for your ThinkCentre model.</li>
+        <li><i class="fas fa-box inline-icon"></i> <strong>Order history:</strong> View past purchases, track current orders, and register new devices.</li>
+        <li><i class="fas fa-cog inline-icon"></i> <strong>Account settings:</strong> Update personal info, change password, manage 2FA, and communication preferences.</li>
+      </ul>
+
+      <!-- ===== SECURITY TIPS ===== -->
+      <h2>7. Security Tips for Your Lenovo Account</h2>
+      <ul>
+        <li><strong>Unique password:</strong> Never reuse passwords across different sites.</li>
+        <li><strong>Monitor activity:</strong> Check your login history periodically for any suspicious activity.</li>
+        <li><strong>Sign out after use:</strong> Always sign out from shared or public computers.</li>
+        <li><strong>Phishing awareness:</strong> Lenovo will never ask for your password via email or phone. Always access the login page from the official website.</li>
+      </ul>
+
+      <!-- ===== FAQ ===== -->
+      <h2>8. Frequently Asked Questions (FAQs)</h2>
+      <p><strong>Q: Can I use my Google/Apple ID to log in?</strong><br>
+      Yes, Lenovo allows social login. Click the respective button on the login page and authorize the connection.</p>
+      <p><strong>Q: I have multiple Lenovo devices — can I manage them all from one account?</strong><br>
+      Absolutely. Your Lenovo ID can register multiple devices. After login, go to "My Devices" to add or manage.</p>
+      <p><strong>Q: What if I don’t remember the email I used?</strong><br>
+      Try checking your inbox for old Lenovo emails. Alternatively, contact Lenovo support with your device serial number for assistance.</p>
+      <p><strong>Q: Is the login page secure?</strong><br>
+      Yes, all communication is encrypted with TLS. Look for the padlock icon and "https" in the URL.</p>
+
+      <!-- ===== THINKCENTRE SPECIFIC NOTE ===== -->
+      <div style="background: #eef6fe; border-radius: 24px; padding: 1.8rem 2rem; margin: 2.5rem 0 1rem;">
+        <i class="fas fa-circle-check" style="color: #f44336; font-size: 1.8rem; float: left; margin-right: 18px;"></i>
+        <p style="font-size: 1.05rem; margin-bottom: 0;"><strong>Ready to access your Lenovo ThinkCentre account?</strong> Use the big red button above to head to the secure login page. If you encounter any issues, our support team is ready to help — reach out via chat or phone from the support portal.</p>
+      </div>
+
+    </div> <!-- /content-card -->
+  </div> <!-- /main-wrapper -->
+
+  <!-- ===== SITE FOOTER ===== -->
+  <footer class="site-footer">
+    <div class="footer-bottom">
+      <span><i class="fas fa-copyright"></i> 2026 Lenovo. All rights reserved.</span>
+      <span><i class="fas fa-shield-halved"></i> Protected by Lenovo Security</span>
+      <span><i class="fas fa-globe"></i> Lenovo ThinkCentre</span>
+    </div>
+  </footer>
+
+</body>
+</html>
